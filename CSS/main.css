@@ -1,0 +1,458 @@
+/* -----------------------------fonts----------------------------- */
+
+@font-face {
+  font-family: 'Natasha';
+  src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Natasha.svg#svgFontName') format('svg'); /* Legacy iOS */
+   }
+
+   @font-face {
+  font-family: 'MuseoSans-100';
+  src: url('../fonts/MuseoSansCyrl-100.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-100.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-100.svg#svgFontName') format('svg'); /* Legacy iOS */
+   }
+
+   @font-face {
+  font-family: 'MuseoSans-300';
+  src: url('../fonts/MuseoSansCyrl-300.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-300.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-300.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-300.svg#svgFontName') format('svg'); /* Legacy iOS */
+   }
+
+   @font-face {
+  font-family: 'MuseoSans-900';
+  src: url('../fonts/MuseoSansCyrl-900.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-900.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-900.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-900.svg#svgFontName') format('svg'); /* Legacy iOS */
+   }
+
+   
+   /* -----------------------------Specification----------------------------- */
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+body{
+	font-family: MuseoSans-300, sans-serif;
+	color:#000;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+div, p, form, input, a, span, button{
+	box-sizing: border-box;
+}
+p{
+	margin: 0;
+	font-size: 15;
+	line-height: 1.5em;
+}
+ul, li{
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	line-height: 1.1em;
+	text-transform: uppercase;
+	font-family: 'Natasha';
+}
+h1{
+	font-size: 49px;
+	font-family: 'Natasha';
+}
+h4{
+	color: #888886;
+	font-size: 22px;
+	letter-spacing: 0.12em;
+}
+a, a:hover, a:active{
+	text-decoration: none;
+}
+a, button, input {
+	transition: all 0.5s ease;
+}
+.d-flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.align-items-center{
+	-ms-align-items: center;
+	align-items: center;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:focus{
+	outline: none;
+}
+
+ /* -----------------------------Header----------------------------- */
+.header{
+	background: #363f36 url(../Img/foto-main.jpg) no-repeat top center /cover;
+	color: #fff;
+	padding-top: 53px;
+	padding-bottom: 81px;
+}
+.logo{
+	text-transform: uppercase;
+}
+.logo span{
+	font-family:'MuseoSans-900';
+	font-size: 17px;
+}
+.menu{
+color: #fff;
+width: 324px;
+font-size: 15px;
+font-family: 'MuseoSans-900', sans-serif;
+}
+.menu__items{
+	
+}
+.menu__link{
+	color: #fff;
+	font-family: 'MuseoSans-900', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	align-items: center;
+	font-size: 15px;
+}
+.menu__link:hover{
+	border: 2px solid #fff;
+	padding: 10px 14px;
+}
+.mail{
+font-size: 13px;
+border-bottom: 0.01em solid #FFF;
+}
+.offer{
+	text-align: center;
+	margin-top: 290px;
+	letter-spacing: 0.12em;
+}
+.offer__title_small{
+font-size: 29px;
+font-family: 'MuseoSans-100';
+margin-top: 26px;
+}
+
+	
+
+.arrow-down{
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	display: block;
+	border:1px solid #fff;
+	border-radius: 50%;
+	height: 38px;
+	width: 38px;
+	color: #fff;
+	margin:0 auto;
+	margin-top: 260px;
+	line-height: 30px
+}
+
+/* -----------------------------With-me----------------------------- */
+
+.with-me{
+	padding-top: 79px;
+}
+.with-me-title{
+	font-size: 37px;
+	letter-spacing: 0.12em;
+	
+	
+}
+.about-me{
+height: 470px;
+margin-top: 71px;
+}
+
+/* -----------------------------Background----------------------------- */
+.background{
+width: 425px;
+}
+.background__title{
+
+}
+.backdround__text{
+	
+color: #22241b;
+margin-top: 37px;	
+}
+
+/* -----------------------------Merit----------------------------- */
+
+.merit{
+	width: 467px;
+}
+.merit__title{
+	margin-bottom: 35px;
+}
+.merit__rhomb{
+	width: 100px;
+	height: 100px;
+	border:2px solid #3e6534;
+	font-size: 20px;
+	display: block;
+    text-align: center;
+    padding-top: 36px;
+    transform: rotate(-45deg);
+    position: relative;
+}
+
+.merit__rhomb:after{
+	content: '';
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    border: 1px solid #cddbc3;
+    left: 7px;
+    top: 5px;
+}
+.rotate__text{
+	display: block;
+    transform: rotate(45deg);
+}
+
+.merit__rhomb-text{
+	text-align: center;
+	font-family:'MuseoSans-100' ;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+/* -----------------------------CONNECTION----------------------------- */
+
+.connection__title{
+	margin-top: 45px;
+	margin-bottom: 38px;
+}
+.connection__links{
+	width: 180px;
+
+	}
+.connection__link{
+	color: #204d15;
+	font-size: 14px;
+	font-family:'MuseoSans-300' ;
+	border-bottom: 1px solid #becbbb;
+	display: block;
+	margin-bottom: 15px;
+}
+.fas {
+	color:#204d15;
+	font-size: 25px;	
+}
+.connection__icon{
+	display: block;
+	border:0 solid #eef1ed;
+	border-radius: 50%;
+	background: #eef1ed;
+	width: 64px;
+	height: 64px;
+	text-align: center;
+	margin-right: 19px;
+	padding-top: 17px;
+}
+
+/* -----------------------------SKILLS and WORK----------------------------- */
+
+.work{
+	padding-top: 90px;
+}
+.skills__title{
+margin-bottom: 63px;
+font-size: 37px;
+line-height: 1.5em;
+}
+.perfomance{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.perfomance__img{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #204d15;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 3.99em;
+	position: relative;
+	display: block;
+}
+.perfomance__img:after{
+	content: '';
+	position: absolute;
+	width: 46px;
+	height: 46px;
+	border:1px solid #b7bbb6;
+	border-radius: 100px;
+	left:5px;
+	top:4px;
+
+}
+.perfomance__text{
+	margin-left: 25px;
+	font-size: 15px;
+	font-family:'MuseoSans-900' ;
+}
+
+/* -----------------------------WORK----------------------------- */
+
+.work__title{
+	margin-top: 78px;
+	margin-bottom: 59px;
+	font-size: 37px;
+}
+.works__foto{
+	
+}
+.works__img{
+	position: relative;
+}
+.works__list-overlay{
+background: rgba(0,0,0,0.56);
+color: #fff;
+position: absolute;
+left:0;
+top: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: all 0.5s ease;
+text-align: center;
+padding-top: 126px;
+}
+
+.works__list-overlay:hover{
+opacity: 1;
+
+}
+.name__work{
+	font-size: 15px;
+	margin-bottom: 10px;
+
+}
+.watch{
+	font-size: 13px;
+	font-family:'MuseoSans-300' ;
+	color: #fff;
+	text-decoration: underline;
+
+}
+
+
+/* -----------------------------FOOTER----------------------------- */
+.footer{
+	padding-top: 124px;
+	padding-bottom: 112px;
+}
+.future{
+	font-size: 11px;
+	color: #888886;
+	
+}
+
+/* ------------------------MEDIA QUERIES---------------------------- */
+                          /*992-1200px*/	
+@media screen and (max-width: 1200px){
+.container{
+	width: 100%;
+}
+}
+
+                        /*768-992px*/
+@media screen and (max-width: 992px){
+.container{
+	width: 700px;
+    }
+.about-me{
+	flex-direction: column;
+}
+.background{
+	width: 100%;
+}
+.merit__title{
+margin-top: 30px;
+
+}
+.skills__title{
+    margin-top: 262px;
+}
+.works__foto {
+    width: 94%;
+}
+
+}
+
+                         /*576-768px*/
+@media screen and (max-width: 768px){
+.container{
+	width: 520px;
+    }
+.offer__title_big{
+font-size: 38px;
+}
+.skills__title{
+	margin-top: 338px;
+}
+.perfomance__text{
+	    margin-left: 7px;
+}
+.menu{
+	display: none;
+}
+}
+
+                          /*320-576PX*/
+@media screen and (max-width: 576px){
+.container{
+	width: 90%;
+}
+.heat {
+	display: none;	
+}
+.offer__title_big{
+	font-size: 20px;
+}
+.offer__title_small{
+	font-size: 19px;
+}
+.with-me-title{
+	text-align: center;
+}
+.merit__rhomb{
+	flex-direction: column;
+}
+}
+
+
+
